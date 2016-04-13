@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Waterdrop';
-    src:    url('fonts/Waterdrop.eot?ghkbk4');
-    src:    url('fonts/Waterdrop.eot?ghkbk4#iefix') format('embedded-opentype'),
-        url('fonts/Waterdrop.ttf?ghkbk4') format('truetype'),
-        url('fonts/Waterdrop.woff?ghkbk4') format('woff'),
-        url('fonts/Waterdrop.svg?ghkbk4#Waterdrop') format('svg');
+    src:    url('fonts/Waterdrop.eot?i3zfjs');
+    src:    url('fonts/Waterdrop.eot?i3zfjs#iefix') format('embedded-opentype'),
+        url('fonts/Waterdrop.ttf?i3zfjs') format('truetype'),
+        url('fonts/Waterdrop.woff?i3zfjs') format('woff'),
+        url('fonts/Waterdrop.svg?i3zfjs#Waterdrop') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-exchange:before {
+    content: "\e958";
+}
 .wdi-andriod:before {
     content: "\e901";
 }
@@ -123,6 +126,9 @@
 .wdi-cloud-upload:before {
     content: "\e912";
 }
+.wdi-cloud-upload-o:before {
+    content: "\e959";
+}
 .wdi-cny-circle:before {
     content: "\e953";
 }
@@ -134,6 +140,9 @@
 }
 .wdi-crop:before {
     content: "\e94c";
+}
+.wdi-dot-circle-o:before {
+    content: "\e918";
 }
 .wdi-edit:before {
     content: "\e940";
@@ -224,9 +233,6 @@
 }
 .wdi-question-circle:before {
     content: "\e900";
-}
-.wdi-dot-circle-o:before {
-    content: "\e918";
 }
 .wdi-refresh:before {
     content: "\e93e";
