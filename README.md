@@ -6,6 +6,9 @@ Waterdrop Font Icon used in almost all projects of Netease QA.
 Now at version v1.3, all icons can see [here](/demo.html).
 
 #Changelog
+## 2016-04-25 Update v1.5
+1. Added: `refresh-arrow`
+
 ## 2016-04-13 Update v1.4
 1. Added: `exchange` `cloud-upload-o`
 
