@@ -6,6 +6,9 @@ Waterdrop Font Icon used in almost all projects of Netease QA.
 Now at version v1.3, all icons can see [here](/demo.html).
 
 #Changelog
+## 2016-05-23 Update v1.8
+1. Resize: `caret-down` `caret-left` `caret-right` `caret-up`
+
 ## 2016-05-10 Update v1.7
 1. Added: `thumbs-o-down` `thumbs-o-up`
 
