@@ -6,6 +6,9 @@ Waterdrop Font Icon used in almost all projects of Netease QA.
 Now at version v1.3, all icons can see [here](/demo.html).
 
 #Changelog
+## 2016-05-23 Update v1.9
+1. Update: `search` `checke-circle-o` `exclamation-circle-o` `checke-circle-o` `pending-circle`
+
 ## 2016-05-23 Update v1.8
 1. Resize: `caret-down` `caret-left` `caret-right` `caret-up`
 
