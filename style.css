@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Waterdrop';
-    src:    url('fonts/Waterdrop.eot?v09hmk');
-    src:    url('fonts/Waterdrop.eot?v09hmk#iefix') format('embedded-opentype'),
-        url('fonts/Waterdrop.ttf?v09hmk') format('truetype'),
-        url('fonts/Waterdrop.woff?v09hmk') format('woff'),
-        url('fonts/Waterdrop.svg?v09hmk#Waterdrop') format('svg');
+    src:    url('fonts/Waterdrop.eot?oq8aqn');
+    src:    url('fonts/Waterdrop.eot?oq8aqn#iefix') format('embedded-opentype'),
+        url('fonts/Waterdrop.ttf?oq8aqn') format('truetype'),
+        url('fonts/Waterdrop.woff?oq8aqn') format('woff'),
+        url('fonts/Waterdrop.svg?oq8aqn#Waterdrop') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,33 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-check-question-lamp:before {
+    content: "\e947";
+}
+.wdi-result-new-tip:before {
+    content: "\e963";
+}
+.wdi-describe-check-question:before {
+    content: "\e964";
+}
+.wdi-describe-first-test:before {
+    content: "\e965";
+}
+.wdi-describe-arrow:before {
+    content: "\e966";
+}
+.wdi-describe-htest:before {
+    content: "\e967";
+}
+.wdi-success-page:before {
+    content: "\e968";
+}
+.wdi-back-top:before {
+    content: "\e969";
+}
+.wdi-times-close-circle:before {
+    content: "\e96a";
+}
 .wdi-align-bottom:before {
     content: "\e95b";
 }
@@ -258,8 +285,8 @@
 .wdi-rotate-left:before {
     content: "\e90c";
 }
-.wdi-rotate-right:before {
-    content: "\e947";
+.wdi-rotate:before {
+    content: "\e96b";
 }
 .wdi-search:before {
     content: "\e91c";
