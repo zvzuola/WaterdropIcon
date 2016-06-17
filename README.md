@@ -7,6 +7,10 @@ Waterdrop Font Icon used in almost all projects of Netease QA.
 Now at version v1.3, all icons can see [here](/demo.html).
 
 #Changelog
+## 2016-06-17 Update v1.9
+1. Update: `show-big-img`
+
+
 ## 2016-05-30 Update v2.0
 1. Update: `seacheck-question-lamp` `describe-arrow` `describe-htest` `success-page` `back-top` `times-close-circle` `exclamation-circle-o, warning-circle-o` `pending-circle` `checke-circle-o` `times-circle, close-circle` `zip`
 2、Added: `result-new-tip` `describe-check-question` `describe-first-test` 

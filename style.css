@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Waterdrop';
-    src:    url('fonts/Waterdrop.eot?oq8aqn');
-    src:    url('fonts/Waterdrop.eot?oq8aqn#iefix') format('embedded-opentype'),
-        url('fonts/Waterdrop.ttf?oq8aqn') format('truetype'),
-        url('fonts/Waterdrop.woff?oq8aqn') format('woff'),
-        url('fonts/Waterdrop.svg?oq8aqn#Waterdrop') format('svg');
+    src:    url('fonts/Waterdrop.eot?15bhd9');
+    src:    url('fonts/Waterdrop.eot?15bhd9#iefix') format('embedded-opentype'),
+        url('fonts/Waterdrop.ttf?15bhd9') format('truetype'),
+        url('fonts/Waterdrop.woff?15bhd9') format('woff'),
+        url('fonts/Waterdrop.svg?15bhd9#Waterdrop') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-show-big-img:before {
+    content: "\e96c";
+}
 .wdi-check-question-lamp:before {
     content: "\e947";
 }
