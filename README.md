@@ -9,6 +9,9 @@ Now at version v1.3, all icons can see [here](/demo.html).
 #Changelog
 
 ## 2016-06-17 Update v1.9
+1. Added: `command-icon` `help` `empty-img-icon`
+
+## 2016-06-17 Update v1.9
 1. Update: `cloud-upload-o` `canceled-icon`
 
 
