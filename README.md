@@ -10,6 +10,9 @@ Now at version v1.3, all icons can see [here](/demo.html).
 
 
 ## 2016-06-17 Update v1.9
+1. Added: `check-mini` `alipay-logo` `alipay-title` `descending-sort`
+
+## 2016-06-17 Update v1.9
 1. Added: `command-icon` `help` `empty-img-icon`
 
 ## 2016-06-17 Update v1.9

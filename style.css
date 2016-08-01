@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Waterdrop';
-    src:    url('fonts/Waterdrop.eot?px6my5');
-    src:    url('fonts/Waterdrop.eot?px6my5#iefix') format('embedded-opentype'),
-        url('fonts/Waterdrop.ttf?px6my5') format('truetype'),
-        url('fonts/Waterdrop.woff?px6my5') format('woff'),
-        url('fonts/Waterdrop.svg?px6my5#Waterdrop') format('svg');
+    src:    url('fonts/Waterdrop.eot?ka2gmy');
+    src:    url('fonts/Waterdrop.eot?ka2gmy#iefix') format('embedded-opentype'),
+        url('fonts/Waterdrop.ttf?ka2gmy') format('truetype'),
+        url('fonts/Waterdrop.woff?ka2gmy') format('woff'),
+        url('fonts/Waterdrop.svg?ka2gmy#Waterdrop') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,18 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-descending-sort:before {
+    content: "\e988";
+}
+.wdi-alipay-title:before {
+    content: "\e986";
+}
+.wdi-alipay-logo:before {
+    content: "\e987";
+}
+.wdi-check-mini:before {
+    content: "\e985";
+}
 .wdi-command-icon:before {
     content: "\e982";
 }
