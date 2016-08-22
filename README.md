@@ -10,6 +10,9 @@ Now at version v1.3, all icons can see [here](/demo.html).
 
 
 ## 2016-06-17 Update v1.9
+1. Added: `base-test-check` `quit-accout` `order-info` `account-info`
+
+## 2016-06-17 Update v1.9
 1. Added: `check-mini` `alipay-logo` `alipay-title` `descending-sort`
 
 ## 2016-06-17 Update v1.9

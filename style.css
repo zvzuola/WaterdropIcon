@@ -1,502 +1,514 @@
 @font-face {
-    font-family: 'Waterdrop';
-    src:    url('fonts/Waterdrop.eot?ka2gmy');
-    src:    url('fonts/Waterdrop.eot?ka2gmy#iefix') format('embedded-opentype'),
-        url('fonts/Waterdrop.ttf?ka2gmy') format('truetype'),
-        url('fonts/Waterdrop.woff?ka2gmy') format('woff'),
-        url('fonts/Waterdrop.svg?ka2gmy#Waterdrop') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Waterdrop';
+  src:  url('fonts/Waterdrop.eot?7hmrrw');
+  src:  url('fonts/Waterdrop.eot?7hmrrw#iefix') format('embedded-opentype'),
+    url('fonts/Waterdrop.ttf?7hmrrw') format('truetype'),
+    url('fonts/Waterdrop.woff?7hmrrw') format('woff'),
+    url('fonts/Waterdrop.svg?7hmrrw#Waterdrop') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="wdi-"], [class*=" wdi-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'Waterdrop' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Waterdrop' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-base-test-check:before {
+  content: "\e989";
+}
+.wdi-quit-accout:before {
+  content: "\e98a";
+}
+.wdi-order-info:before {
+  content: "\e98b";
+}
+.wdi-account-info:before {
+  content: "\e98c";
+}
 .wdi-descending-sort:before {
-    content: "\e988";
+  content: "\e988";
 }
 .wdi-alipay-title:before {
-    content: "\e986";
+  content: "\e986";
 }
 .wdi-alipay-logo:before {
-    content: "\e987";
+  content: "\e987";
 }
 .wdi-check-mini:before {
-    content: "\e985";
+  content: "\e985";
 }
 .wdi-command-icon:before {
-    content: "\e982";
+  content: "\e982";
 }
 .wdi-help:before {
-    content: "\e983";
+  content: "\e983";
 }
 .wdi-empty-img-icon:before {
-    content: "\e984";
+  content: "\e984";
 }
 .wdi-logo-mini:before {
-    content: "\e96e";
+  content: "\e96e";
 }
 .wdi-netease-logo .path1:before {
-    content: "\e96f";
-    color: rgb(9, 182, 159);
+  content: "\e96f";
+  color: rgb(9, 182, 159);
 }
 .wdi-netease-logo .path2:before {
-    content: "\e970";
-    margin-left: -1em;
-    color: rgb(9, 182, 159);
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(9, 182, 159);
 }
 .wdi-netease-logo .path3:before {
-    content: "\e971";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path4:before {
-    content: "\e972";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path5:before {
-    content: "\e973";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path6:before {
-    content: "\e974";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path7:before {
-    content: "\e975";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path8:before {
-    content: "\e976";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path9:before {
-    content: "\e977";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path10:before {
-    content: "\e978";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e978";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path11:before {
-    content: "\e979";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e979";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path12:before {
-    content: "\e97a";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path13:before {
-    content: "\e97b";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path14:before {
-    content: "\e97c";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97c";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path15:before {
-    content: "\e97d";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97d";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path16:before {
-    content: "\e97e";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97e";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path17:before {
-    content: "\e97f";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e97f";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path18:before {
-    content: "\e980";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e980";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-netease-logo .path19:before {
-    content: "\e981";
-    margin-left: -1em;
-    color: rgb(102, 102, 102);
+  content: "\e981";
+  margin-left: -1em;
+  color: rgb(102, 102, 102);
 }
 .wdi-cloud-upload-o:before {
-    content: "\e959";
+  content: "\e959";
 }
 .wdi-canceled-icon:before {
-    content: "\e96d";
+  content: "\e96d";
 }
 .wdi-show-big-img:before {
-    content: "\e96c";
+  content: "\e96c";
 }
 .wdi-check-question-lamp:before {
-    content: "\e947";
+  content: "\e947";
 }
 .wdi-result-new-tip:before {
-    content: "\e963";
+  content: "\e963";
 }
 .wdi-describe-check-question:before {
-    content: "\e964";
+  content: "\e964";
 }
 .wdi-describe-first-test:before {
-    content: "\e965";
+  content: "\e965";
 }
 .wdi-describe-arrow:before {
-    content: "\e966";
+  content: "\e966";
 }
 .wdi-describe-htest:before {
-    content: "\e967";
+  content: "\e967";
 }
 .wdi-success-page:before {
-    content: "\e968";
+  content: "\e968";
 }
 .wdi-back-top:before {
-    content: "\e969";
+  content: "\e969";
 }
 .wdi-times-close-circle:before {
-    content: "\e96a";
+  content: "\e96a";
 }
 .wdi-align-bottom:before {
-    content: "\e95b";
+  content: "\e95b";
 }
 .wdi-andriod:before {
-    content: "\e901";
+  content: "\e901";
 }
 .wdi-android-back:before {
-    content: "\e90a";
+  content: "\e90a";
 }
 .wdi-android-home:before {
-    content: "\e904";
+  content: "\e904";
 }
 .wdi-android-menu:before {
-    content: "\e905";
+  content: "\e905";
 }
 .wdi-angle-circle-down:before {
-    content: "\e94e";
+  content: "\e94e";
 }
 .wdi-angle-circle-left:before {
-    content: "\e93c";
+  content: "\e93c";
 }
 .wdi-angle-circle-right:before {
-    content: "\e93d";
+  content: "\e93d";
 }
 .wdi-angle-circle-up:before {
-    content: "\e94d";
+  content: "\e94d";
 }
 .wdi-angle-down:before {
-    content: "\e950";
+  content: "\e950";
 }
 .wdi-angle-left:before {
-    content: "\e92b";
+  content: "\e92b";
 }
 .wdi-angle-right:before {
-    content: "\e903";
+  content: "\e903";
 }
 .wdi-angle-up:before {
-    content: "\e94f";
+  content: "\e94f";
 }
 .wdi-apple:before {
-    content: "\e902";
+  content: "\e902";
 }
 .wdi-blocklist:before {
-    content: "\e93b";
+  content: "\e93b";
 }
 .wdi-calendar:before {
-    content: "\e907";
+  content: "\e907";
 }
 .wdi-camera-o:before {
-    content: "\e95c";
+  content: "\e95c";
 }
 .wdi-caret-down:before {
-    content: "\e952";
+  content: "\e952";
 }
 .wdi-caret-left:before {
-    content: "\e920";
+  content: "\e920";
 }
 .wdi-caret-right:before {
-    content: "\e921";
+  content: "\e921";
 }
 .wdi-caret-up:before {
-    content: "\e951";
+  content: "\e951";
 }
 .wdi-check:before {
-    content: "\e91d";
+  content: "\e91d";
 }
 .wdi-check-circle:before {
-    content: "\e93a";
+  content: "\e93a";
 }
 .wdi-check-circle-o-notch:before {
-    content: "\e944";
+  content: "\e944";
 }
 .wdi-check-square:before {
-    content: "\e92f";
+  content: "\e92f";
 }
 .wdi-checkbox-checked:before {
-    content: "\e909";
+  content: "\e909";
 }
 .wdi-checke-circle:before {
-    content: "\e91a";
+  content: "\e91a";
 }
 .wdi-checke-circle-o:before {
-    content: "\e91b";
+  content: "\e91b";
 }
 .wdi-chevron-down:before {
-    content: "\e949";
+  content: "\e949";
 }
 .wdi-chevron-left:before {
-    content: "\e94a";
+  content: "\e94a";
 }
 .wdi-chevron-right:before {
-    content: "\e94b";
+  content: "\e94b";
 }
 .wdi-chevron-up:before {
-    content: "\e948";
+  content: "\e948";
 }
 .wdi-circle-o:before {
-    content: "\e917";
+  content: "\e917";
 }
 .wdi-cloud-download:before {
-    content: "\e924";
+  content: "\e924";
 }
 .wdi-cloud-upload:before {
-    content: "\e912";
+  content: "\e912";
 }
 .wdi-cny-circle:before {
-    content: "\e953";
+  content: "\e953";
 }
 .wdi-rmb-circle:before {
-    content: "\e953";
+  content: "\e953";
 }
 .wdi-cog:before {
-    content: "\e946";
+  content: "\e946";
 }
 .wdi-crop:before {
-    content: "\e94c";
+  content: "\e94c";
 }
 .wdi-dot-circle-o:before {
-    content: "\e918";
+  content: "\e918";
 }
 .wdi-edit:before {
-    content: "\e940";
+  content: "\e940";
 }
 .wdi-email:before {
-    content: "\e93f";
+  content: "\e93f";
 }
 .wdi-empty:before {
-    content: "\e90b";
+  content: "\e90b";
 }
 .wdi-dropbox:before {
-    content: "\e90b";
+  content: "\e90b";
 }
 .wdi-exchange:before {
-    content: "\e958";
+  content: "\e958";
 }
 .wdi-exclamation-circle:before {
-    content: "\e925";
+  content: "\e925";
 }
 .wdi-warning-circle:before {
-    content: "\e925";
+  content: "\e925";
 }
 .wdi-exclamation-circle-o:before {
-    content: "\e927";
+  content: "\e927";
 }
 .wdi-warning-circle-o:before {
-    content: "\e927";
+  content: "\e927";
 }
 .wdi-exclamation-thin-circle-o:before {
-    content: "\e926";
+  content: "\e926";
 }
 .wdi-warning-thin-circle-o:before {
-    content: "\e926";
+  content: "\e926";
 }
 .wdi-eye:before {
-    content: "\e914";
+  content: "\e914";
 }
 .wdi-file-download:before {
-    content: "\e919";
+  content: "\e919";
 }
 .wdi-folders:before {
-    content: "\e911";
+  content: "\e911";
 }
 .wdi-line-chart:before {
-    content: "\e937";
+  content: "\e937";
 }
 .wdi-list:before {
-    content: "\e936";
+  content: "\e936";
 }
 .wdi-lock:before {
-    content: "\e930";
+  content: "\e930";
 }
 .wdi-lock-o:before {
-    content: "\e931";
+  content: "\e931";
 }
 .wdi-minus:before {
-    content: "\e923";
+  content: "\e923";
 }
 .wdi-minus-circle:before {
-    content: "\e922";
+  content: "\e922";
 }
 .wdi-netease-square:before {
-    content: "\e934";
+  content: "\e934";
 }
 .wdi-nodes:before {
-    content: "\e95d";
+  content: "\e95d";
 }
 .wdi-notepad:before {
-    content: "\e906";
+  content: "\e906";
 }
 .wdi-calendar-o:before {
-    content: "\e906";
+  content: "\e906";
 }
 .wdi-paperclip:before {
-    content: "\e954";
+  content: "\e954";
 }
 .wdi-attachment:before {
-    content: "\e954";
+  content: "\e954";
 }
 .wdi-pencil:before {
-    content: "\e913";
+  content: "\e913";
 }
 .wdi-pending-circle:before {
-    content: "\e955";
+  content: "\e955";
 }
 .wdi-phone:before {
-    content: "\e943";
+  content: "\e943";
 }
 .wdi-phone-check:before {
-    content: "\e915";
+  content: "\e915";
 }
 .wdi-phone2:before {
-    content: "\e916";
+  content: "\e916";
 }
 .wdi-question-circle:before {
-    content: "\e900";
+  content: "\e900";
 }
 .wdi-refresh:before {
-    content: "\e93e";
+  content: "\e93e";
 }
 .wdi-related:before {
-    content: "\e939";
+  content: "\e939";
 }
 .wdi-repeat:before {
-    content: "\e95a";
+  content: "\e95a";
 }
 .wdi-report:before {
-    content: "\e938";
+  content: "\e938";
 }
 .wdi-rotate-left:before {
-    content: "\e90c";
+  content: "\e90c";
 }
 .wdi-rotate:before {
-    content: "\e96b";
+  content: "\e96b";
 }
 .wdi-search:before {
-    content: "\e91c";
+  content: "\e91c";
 }
 .wdi-share:before {
-    content: "\e91e";
+  content: "\e91e";
 }
 .wdi-smile:before {
-    content: "\e91f";
+  content: "\e91f";
 }
 .wdi-spinner-arc:before {
-    content: "\e935";
+  content: "\e935";
 }
 .wdi-square-o:before {
-    content: "\e908";
+  content: "\e908";
 }
 .wdi-check-o:before {
-    content: "\e908";
+  content: "\e908";
 }
 .wdi-star:before {
-    content: "\e92e";
+  content: "\e92e";
 }
 .wdi-star-half-o:before {
-    content: "\e92d";
+  content: "\e92d";
 }
 .wdi-star-o:before {
-    content: "\e92c";
+  content: "\e92c";
 }
 .wdi-thumbs-o-down:before {
-    content: "\e961";
+  content: "\e961";
 }
 .wdi-thumbs-o-up:before {
-    content: "\e962";
+  content: "\e962";
 }
 .wdi-times:before {
-    content: "\e90e";
+  content: "\e90e";
 }
 .wdi-times-circle:before {
-    content: "\e929";
+  content: "\e929";
 }
 .wdi-close-circle:before {
-    content: "\e929";
+  content: "\e929";
 }
 .wdi-times-circle-o:before {
-    content: "\e92a";
+  content: "\e92a";
 }
 .wdi-times-thin:before {
-    content: "\e90d";
+  content: "\e90d";
 }
 .wdi-trash:before {
-    content: "\e90f";
+  content: "\e90f";
 }
 .wdi-trash-fill:before {
-    content: "\e956";
+  content: "\e956";
 }
 .wdi-trash-thin:before {
-    content: "\e910";
+  content: "\e910";
 }
 .wdi-upload:before {
-    content: "\e942";
+  content: "\e942";
 }
 .wdi-upload-thin:before {
-    content: "\e941";
+  content: "\e941";
 }
 .wdi-user:before {
-    content: "\e932";
+  content: "\e932";
 }
 .wdi-user-cog:before {
-    content: "\e95e";
+  content: "\e95e";
 }
 .wdi-user-headphones:before {
-    content: "\e95f";
+  content: "\e95f";
 }
 .wdi-verification:before {
-    content: "\e933";
+  content: "\e933";
 }
 .wdi-wifi:before {
-    content: "\e945";
+  content: "\e945";
 }
 .wdi-windows:before {
-    content: "\e928";
+  content: "\e928";
 }
 .wdi-wrench:before {
-    content: "\e960";
+  content: "\e960";
 }
 .wdi-zip:before {
-    content: "\e957";
+  content: "\e957";
 }
 
