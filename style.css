@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Waterdrop';
-  src:  url('fonts/Waterdrop.eot?7hmrrw');
-  src:  url('fonts/Waterdrop.eot?7hmrrw#iefix') format('embedded-opentype'),
-    url('fonts/Waterdrop.ttf?7hmrrw') format('truetype'),
-    url('fonts/Waterdrop.woff?7hmrrw') format('woff'),
-    url('fonts/Waterdrop.svg?7hmrrw#Waterdrop') format('svg');
+  src:  url('#{$fontpath}/Waterdrop.eot?ix17h4');
+  src:  url('fonts/Waterdrop.eot?ix17h4#iefix') format('embedded-opentype'),
+    url('fonts/Waterdrop.ttf?ix17h4') format('truetype'),
+    url('fonts/Waterdrop.woff?ix17h4') format('woff'),
+    url('fonts/Waterdrop.svg?ix17h4#Waterdrop') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,92 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wdi-cpu-use-rate:before {
+  content: "\e99e";
+}
+.wdi-install-time:before {
+  content: "\e99f";
+}
+.wdi-battery-temp:before {
+  content: "\e9a0";
+}
+.wdi-second-start:before {
+  content: "\e9a1";
+}
+.wdi-traffic-consume:before {
+  content: "\e9a2";
+}
+.wdi-cpu-use:before {
+  content: "\e9a3";
+}
+.wdi-cpu-percent .path1:before {
+  content: "\e9a4";
+  color: rgb(65, 65, 65);
+}
+.wdi-cpu-percent .path2:before {
+  content: "\e9a5";
+  margin-left: -1em;
+  color: rgb(65, 65, 65);
+}
+.wdi-cpu-percent .path3:before {
+  content: "\e9a6";
+  margin-left: -1em;
+  color: rgb(81, 81, 81);
+}
+.wdi-first-start:before {
+  content: "\e9a7";
+}
+.wdi-qq-connect-us:before {
+  content: "\e99d";
+}
+.wdi-back-to-top:before {
+  content: "\e99a";
+}
+.wdi-popo-connect-us:before {
+  content: "\e99b";
+}
+.wdi-ext-connect-us:before {
+  content: "\e99c";
+}
+.wdi-remote-rotate:before {
+  content: "\e98e";
+}
+.wdi-remote-home:before {
+  content: "\e98f";
+}
+.wdi-remote-empty-icon:before {
+  content: "\e990";
+}
+.wdi-remote-menue:before {
+  content: "\e991";
+}
+.wdi-remote-back:before {
+  content: "\e992";
+}
+.wdi-time-tip:before {
+  content: "\e993";
+}
+.wdi-screen-shot:before {
+  content: "\e994";
+}
+.wdi-empty-state:before {
+  content: "\e995";
+}
+.wdi-delete-all:before {
+  content: "\e996";
+}
+.wdi-download-all:before {
+  content: "\e997";
+}
+.wdi-upload-bold:before {
+  content: "\e998";
+}
+.wdi-remote-telephone:before {
+  content: "\e999";
+}
+.wdi-state-time-out:before {
+  content: "\e98d";
+}
 .wdi-base-test-check:before {
   content: "\e989";
 }

@@ -8,6 +8,8 @@ Now at version v1.3, all icons can see [here](/demo.html).
 
 #Changelog
 
+## 2016-11-15 Update v1.9
+1. Added: `cpu-use-rate` `install-time` `battery-temp` `second-start` `traffic-consume` `cpu-use` `cpu-percent` `first-start` `qq-connect-us` `back-to-top` `popo-connect-us` `ext-connect-us` `remote-rotate` `remote-home` `remote-empty-icon` `remote-menue` `remote-back` `time-tip` `screen-shot` `empty-state` `delete-all` `download-all` `upload-bold` `remote-telephone` `state-time-out`
 
 ## 2016-06-17 Update v1.9
 1. Added: `base-test-check` `quit-accout` `order-info` `account-info`
